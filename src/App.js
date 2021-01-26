@@ -60,9 +60,6 @@ const createSiteBuild = async function () {
 function App() {
   const [, setTriggerRerender] = useState(false);
 
-  const x = useXXXXX();
-  console.log(x);
-
   const rerenderButton = {
     position: 'absolute',
     right: 20,
